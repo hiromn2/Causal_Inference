@@ -6,6 +6,8 @@ Created on Fri Feb 20 09:42:35 2026
 @author: hiro
 """
 
+#Lecture 1
+
 import pandas as pd
 import numpy as np
 from scipy.special import expit
@@ -43,3 +45,14 @@ pd.DataFrame(dict(
 plt.figure(figsize=(10,6))
 sns.scatterplot(x="Tuition", y="enem_score", hue="Tablet", data=data, s=70).set_title('ENEM score by Tuition Cost')
 plt.show()
+
+
+
+#Lecture 2
+
+
+
+
+
+#Lecture 3
+
